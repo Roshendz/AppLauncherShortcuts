@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android" >
+    <shortcut
+        android:shortcutId="add_website"
+        android:icon="@drawable/add"
+        android:shortcutShortLabel="@string/add_new_website_short"
+        android:shortcutLongLabel="@string/add_new_website"
+        >
+        <intent
+            android:action="com.roshendilan.applaunchershortcuts.ADD_WEBSITE"
+            android:targetPackage="com.roshendilan.applaunchershortcuts"
+            android:targetClass="com.roshendilan.applaunchershortcuts.MainActivity"
+            />
+    </shortcut>
+</shortcuts>
